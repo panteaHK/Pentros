@@ -35,4 +35,5 @@ To run PENTROS please note :
     
     ./bin/spark-submit --class Main_Class Jar_File K_size Out_Put_File
     
- 
+     K_size : the size of the miki to be mined from the data stream.
+     Out_Put_File : Add the name and the path to the output file if needed.
