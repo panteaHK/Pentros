@@ -27,10 +27,10 @@ We used a built-in streaming source of Spark Streaming, fed from two real-life d
 
 To run PENTROS please note : 
 
-1 - Set the data location on the machine in the main class
-    streamingContext.fileStream[KeyClass, ValueClass, InputFormatClass](dataDirectory)
+1 - Set the data location on the machine in the main class : 
+    streamingContext.fileStream [ KeyClass, ValueClass, InputFormatClass ] (dataDirectory)
     
-2 - Run the following command
+2 - Run the following command : 
     ./bin/spark-submit --class Main_Class Jar_File K_size Out_Put_File
 ```sh
 # To use DPiSAX class 
